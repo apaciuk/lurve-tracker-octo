@@ -1,6 +1,6 @@
 # lurve-tracker-octo
 
-Epic Ruby On Rails 7 Dating app with Bootstrap 5, Devise, Noticed, Announcements, Madmin, Stimulus JS and Action Cable, with Redis Caching
+Epic Ruby On Rails 7 Dating app with PostgreSQL, Bootstrap 5, Font Awesome, Devise, Noticed, Announcements, Madmin, Stimulus JS and Action Cable, with Redis Caching
 
 https://stimulus.hotwired.dev/
 
@@ -23,8 +23,8 @@ Rails 7.0.0 up
 * Setup
 
  bundle install/update (if change any gems)
- yarn  (node 16.0.0)
-set db credentials postgres
+ yarn  (node v 16.0.0)
+set db credentials config/database.yaml (postgres)
  rails db:create
  rails db:migrate
  rails stimulus_reflex:install
@@ -34,10 +34,6 @@ set db credentials postgres
 
 * Start server
  rails s
-
-* Todo
-
-Add Minitest
 
 (For other cmds see  related docs/links)
 
