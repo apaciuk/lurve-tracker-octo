@@ -17,7 +17,7 @@
     "stimulus": "^2.0.0",
     "stimulus_reflex": "^3.4.1",
     "webpack": "^5.0.0",
-    "webpack-cli"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "webpack-dev-server": "^5.0.0"
