@@ -2,6 +2,7 @@
   "name": "lurve-tracker-octo",
   "dependencies": {
     "@hotwired/turbo-rails": "^7.0.0-rc.1",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.9.3",
     "popper.js": "^2.10.0",
     "@rails/actioncable": "^6.0.0",
