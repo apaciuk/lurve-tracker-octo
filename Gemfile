@@ -43,7 +43,7 @@ end
 gem "cable_ready"
 gem "stimulus_reflex"
 gem 'bootstrap', '5.1.3'
-gem 'devise', '~> 4.8', '>= 4.8.0'
+gem 'devise', git: 'https://github.com/heartcombo/devise', branch: 'main'
 gem 'devise_masquerade', '~> 1.3'
 gem 'font-awesome-sass', '~> 5.15'
 gem 'friendly_id', '~> 5.4'
