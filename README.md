@@ -1,6 +1,6 @@
-# rails-stimulus-sass
+# lurve-tracker-octo
 
-Epic Ruby On Rails Starter SaaS preconfigured boilerplate with Bootstrap 5, Devise, Noticed, Announcements, Madmin, Stimulus JS and Action Cable, with Redis Caching
+Epic Ruby On Rails 7 Dating app with Bootstrap 5, Devise, Noticed, Announcements, Madmin, Stimulus JS and Action Cable, with Redis Caching
 
 https://stimulus.hotwired.dev/
 
@@ -18,13 +18,12 @@ Style kept minimal so Bootstrap 5 can be swapped out for other CSS or UI if requ
 
 Ruby 3.0.0
 
-Rails 7.0.0
+Rails 7.0.0 up
 
 * Setup
 
  bundle install/update (if change any gems)
- npm i
- or yarn  (node 16.0.0)
+ yarn  (node 16.0.0)
 set db credentials postgres
  rails db:create
  rails db:migrate
