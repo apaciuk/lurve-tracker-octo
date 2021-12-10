@@ -19,10 +19,6 @@ gem 'jbuilder'
 gem 'redis'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
-# Use Active Storage variant
-# gem 'image_processing', '~> 1.2'
-
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 #  test components
@@ -48,7 +44,9 @@ gem 'devise_masquerade', '~> 1.3'
 gem 'font-awesome-sass', '~> 5.15'
 gem 'friendly_id', '~> 5.4'
 gem 'hotwire-rails'
+# Use Active Storage variant
 gem 'image_processing'
+# Admin
 gem 'madmin'
 gem 'name_of_person', '~> 1.1'
 gem 'noticed', '~> 1.2'

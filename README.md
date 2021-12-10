@@ -33,7 +33,9 @@ set db credentials config/database.yaml (postgres)
  rails g madmin:views
 
 * Start server
- rails s
+(optional: bundle add foreman && foreman start)
+
+rails s
 
 (For other cmds see  related docs/links)
 
