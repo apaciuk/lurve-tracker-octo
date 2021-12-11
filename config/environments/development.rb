@@ -11,12 +11,12 @@ Rails.application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => "gmail.com",
-    :user_name            => "shiplistconfrimation@gmail.com",
+    :user_name            => "xhostcom@gmail.com",
     :password             => "<PASSWORD>",
     :authentication       => "plain",
     :ssl                  => true,
-    :tsl                  => true
-    # :enable_starttls_auto => true # I don't have this, but it should work anyway
+    :tsl                  => true,
+    :enable_starttls_auto => true
   }
 
   # In the development environment your application's code is reloaded any time
