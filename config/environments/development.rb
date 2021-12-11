@@ -14,8 +14,8 @@ Rails.application.configure do
     :user_name: ENV['SMTP_USER_NAME'],
     :password: ENV['SMTP_PASSWORD'],
     :authentication       => "plain",
-    :ssl                  => true,
-    :tsl                  => true,
+    #:ssl                  => true,
+    #:tsl                  => true,
     :enable_starttls_auto => true
   }
 
