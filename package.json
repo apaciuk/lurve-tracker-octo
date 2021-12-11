@@ -13,8 +13,8 @@
     "cable_ready": "^5.0.0-pre1",
     "expose-loader": "^3.0.0",
     "local-time": "^2.1.0",
-    "stimulus": "^2.0.0",
-    "stimulus_reflex": "^3.4.1",
+    "stimulus": "^3.0.1",
+    "stimulus_reflex": "3.4.1",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
