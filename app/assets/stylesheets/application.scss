@@ -1,5 +1,6 @@
 // @import "font-awesome-sprockets";
 @import "fontawesome/fontawesome";
+@import "trix";
 @import "bootstrap/bootstrap";
 @import "variables/variables";
 @import 'functions/functions';
@@ -8,6 +9,8 @@
 @import 'components/components';
 @import 'sections/sections';
 @import 'reboot';
+
+/* Global fixes */
 
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
@@ -34,17 +37,25 @@ body > .alert {
   width: 8px;
   margin-right: 6px;
 }
+/* App Sass */
+body > footer > div.container.p-4.pb-0 > section > p > a,
+body > footer > div.text-center.p-3 > a {
+    text-decoration: none!important;
+}
+body > footer > div.container.p-4.pb-0 > section > p > span > a > img
+{
+  margin-top: -5px;
+}
 .section-front {
   margin-bottom:30px;
   border: solid 2px #e8e8e8;
-
 }
 body > main > div > section > div.container > div > div:nth-child(3) > div > div.card-action > button > a,
 body > main > div > section > div.container > div > div:nth-child(2) > div > div.card-action > button > a {
   color:white;
 }
 .jumbotron {
-  background:#f5f2f2;
+  background: #f8f5f5;
   padding: 20px;
 }
 #slides {

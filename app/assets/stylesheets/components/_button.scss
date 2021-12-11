@@ -13,6 +13,7 @@ html [type="button"],
   text-transform: $button-text-transform;
   padding: $button-padding;
 
+
   @include transition-all();
   
   @include button-colors();
@@ -20,10 +21,11 @@ html [type="button"],
   @include button-sizes();
   @include button-icon-style();
   @include button-link();
-  
+
   &.rounded,
   &.btn-rounded {
     border-radius: $button-rounded-radius !important;
+
   }
   &.semi-rounded,
   &.btn-semi-rounded {
