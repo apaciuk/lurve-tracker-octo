@@ -1,14 +1,14 @@
-@import "font-awesome-sprockets";
-@import "font-awesome";
-@import "bootstrap";
+// @import "font-awesome-sprockets";
+@import "fontawesome/fontawesome";
+@import "bootstrap/bootstrap";
+@import "variables/variables";
+@import 'functions/functions';
+@import 'mixins/mixins';
+@import 'utilities/utilities';
+@import 'components/components';
+@import 'sections/sections';
+@import 'reboot';
 
-// Fixes bootstrap nav-brand container overlap
-@include media-breakpoint-down(xs) {
-  .container {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
   margin-bottom: 0;
@@ -19,16 +19,6 @@ body > .alert {
     color: $gray-700;
     font-weight: 900;
   }
-}
-
-.section-front {
-  margin-bottom:30px;
-  border: solid 2px #e8e8e8;
-
-}
-body > main > div > section > div.container > div > div:nth-child(3) > div > div.card-action > button > a,
-body > main > div > section > div.container > div > div:nth-child(2) > div > div.card-action > button > a {
-  color:white;
 }
 .unread-announcements:before {
   -moz-border-radius: 50%;
@@ -43,6 +33,15 @@ body > main > div > section > div.container > div > div:nth-child(2) > div > div
   height: 8px;
   width: 8px;
   margin-right: 6px;
+}
+.section-front {
+  margin-bottom:30px;
+  border: solid 2px #e8e8e8;
+
+}
+body > main > div > section > div.container > div > div:nth-child(3) > div > div.card-action > button > a,
+body > main > div > section > div.container > div > div:nth-child(2) > div > div.card-action > button > a {
+  color:white;
 }
 .jumbotron {
   background:#f5f2f2;
