@@ -4,7 +4,20 @@ Rails.application.configure do
   config.session_store :cache_store
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-  # Settings specified here will take precedence over those in config/application.rb.
+
+  config.action_mailer.delivery_method = :smtp
+
+  ActionMailer::Base.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :domain               => "gmail.com",
+    :user_name            => "shiplistconfrimation@gmail.com",
+    :password             => "<PASSWORD>",
+    :authentication       => "plain",
+    :ssl                  => true,
+    :tsl                  => true
+    # :enable_starttls_auto => true # I don't have this, but it should work anyway
+  }
 
   # In the development environment your application's code is reloaded any time
   # it changes. This slows down response time but is perfect for development
