@@ -1,6 +1,6 @@
 # lurve-tracker-octo
 
-Epic Ruby On Rails 7 Dating app with PostgreSQL, Bootstrap 5, Font Awesome, Devise, Noticed, Announcements, Madmin, Stimulus JS and Action Cable, with Redis Caching
+Epic Ruby On Rails 7 Dating app with PostgreSQL, Bootstrap 5, Font Awesome, Devise, Noticed, Announcements, Madmin, Stimulus JS and Action Cable, with Redis Caching, Rubocop
 
 https://stimulus.hotwired.dev/
 
