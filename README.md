@@ -32,6 +32,7 @@ Rails 7.0.0 up
 8. $ rails dev:cache (check, should be cached, if not run again)
 9. $ rails g madmin:install  (if not, have to alter nav)
 10. $ rails g madmin:views  (overwrite)
+12. $ rails g rspec:install  (for testing)
 
 * Woot woot  Start server!
 (optional: bundle add foreman && foreman start)
