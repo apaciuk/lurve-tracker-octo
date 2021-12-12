@@ -50,14 +50,27 @@ body > footer > div.container.p-4.pb-0 > section > p > span > a > img
   margin-bottom:30px;
   border: solid 2px #e8e8e8;
 }
-body > main > div > section > div.container > div > div:nth-child(3) > div > div.card-action > button > a,
-body > main > div > section > div.container > div > div:nth-child(2) > div > div.card-action > button > a {
-  color:white;
-}
+
+// FP Jumbotron
 .jumbotron {
   background: #f8f5f5;
   padding: 20px;
 }
+// FP Pricing buttons
+#pricing > div > div:nth-child(3) > div > div.card-action > button > a,
+#pricing > div > div:nth-child(2) > div > div.card-action > button > a {
+  color:white;
+
+}
+#pricing > div > div:nth-child(3) > div > div.card-action > button > a:hover,
+#pricing > div > div:nth-child(2) > div > div.card-action > button > a:hover {
+  text-decoration:none;
+}
+body > main > div > section > div.container > div > div:nth-child(3) > div > div.card-action > button > a,
+body > main > div > section > div.container > div > div:nth-child(2) > div > div.card-action > button > a {
+  color:white;
+}
+
 #slides {
   position: relative;
   height: 400px;
