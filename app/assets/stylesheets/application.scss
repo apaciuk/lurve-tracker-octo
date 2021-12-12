@@ -41,6 +41,10 @@ body > .alert {
 #box {
   border:none;
 }
+.navbar-dark {
+  background-color: #e84393;
+  background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+}
 body > footer > div.container.p-4.pb-0 > section > p > a,
 body > footer > div.text-center.p-3 > a {
     text-decoration: none!important;
