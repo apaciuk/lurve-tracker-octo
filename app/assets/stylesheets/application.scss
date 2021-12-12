@@ -38,6 +38,9 @@ body > .alert {
   margin-right: 6px;
 }
 /* App Sass */
+#box {
+  border:none;
+}
 body > footer > div.container.p-4.pb-0 > section > p > a,
 body > footer > div.text-center.p-3 > a {
     text-decoration: none!important;
